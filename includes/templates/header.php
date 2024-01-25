@@ -13,11 +13,11 @@
     <div class="contenedor contenido-header">
       <div class="barra">
         <a href="/bienesraices/index.php">
-          <img src="build/img/logo.svg" alt="Logotipo de Bienes Raices" />
+          <img src="/bienesraices/build/img/logo.svg" alt="Logotipo de Bienes Raices" />
         </a>
 
         <div class="mobile-menu">
-          <img src="build/img/barras.svg" alt="Barras en mobile" />
+          <img src="/bienesraices/build/img/barras.svg" alt="Barras en mobile" />
         </div>
 
         <nav class="navegacion">
@@ -27,7 +27,7 @@
           <a href="contacto.php">Contacto</a>
         </nav>
       </div>
-      <?php if (isset($inicio)) { ?>
+      <?php if ($inicio) { ?>
         <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
       <?php } ?>
     </div>
